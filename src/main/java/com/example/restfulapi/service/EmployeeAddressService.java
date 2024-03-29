@@ -11,7 +11,7 @@ public class EmployeeAddressService {
  @Autowired
     private EmployeeAddressRepository employeeAddressRepository;
 
-    // Implement methods for CRUD operations on EmployeeAddress entity
+    
 
     public List<EmployeeAddress> getAddressesByEmployeeId(Long employeeId) {
         return employeeAddressRepository.findByEmployeeId(employeeId);
